@@ -87,6 +87,6 @@ public class Validate_Team_Strength {
         }
         System.out.println(Math.abs(sum1-sum2)>K?"Invalid":"Valid");
 
+        
     }
-	
 }
