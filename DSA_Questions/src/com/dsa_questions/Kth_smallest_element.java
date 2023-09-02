@@ -76,7 +76,6 @@ public class Kth_smallest_element {
         // Quick Sort 
         
         Arrays.sort(arr);
-        
         return arr[k-1];
         
         
