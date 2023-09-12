@@ -31,7 +31,7 @@ class Solution {
         }
         
         for(int temp:arr) {
-        	System.err.println(temp+" ");
+        	System.err.println(temp);
         }
         
     }
