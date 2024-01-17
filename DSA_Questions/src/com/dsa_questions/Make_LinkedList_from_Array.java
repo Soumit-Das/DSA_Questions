@@ -37,11 +37,11 @@ public class Make_LinkedList_from_Array {
 		
 		int[] arr = {1,2,3,4,5,6,7,8,9,10};
 		
-		Node head = convert(arr);
+		Node curr = convert(arr);
 		
-		while(head != null) {
-			System.out.print(head.data+" , ");
-			head = head.next;
+		while(curr != null) {
+			System.out.print(curr.data+" ");
+			curr = curr.next;
 		}
 		
 	}
