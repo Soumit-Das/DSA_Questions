@@ -47,4 +47,20 @@ public class Stock_span {
         
     }
 	
+	public static void main(String[] args) {
+		
+		int[] arr = {100, 80, 60, 70, 60, 75, 85};
+		
+		int n = arr.length;
+		
+		int[] res = calculateSpan(arr,n);
+		
+		for(int i=0;i<res.length;i++) {
+			
+			System.out.print(res[i]+" ");
+			
+		}
+		
+	}
+	
 }
