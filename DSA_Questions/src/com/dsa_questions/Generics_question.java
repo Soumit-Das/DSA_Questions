@@ -1,5 +1,7 @@
 package com.dsa_questions;
 
+import java.util.*;
+
 public class Generics_question {
 
 	public static <T> void printArray(T[] array) {
@@ -12,12 +14,15 @@ public class Generics_question {
         System.out.println();
 }
 
+
     
     public static void main(String[] args) {
         
         Integer[] arr = {1,2,3,4,5,6,7,8};
         
         printArray(arr);
+    	
+    	
         
 
     }
